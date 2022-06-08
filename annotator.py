@@ -18,7 +18,7 @@ def annotate(filename):
     i = 0
     nresponses = results.shape[0]
     while i < nresponses - 1:
-        os.system("cls")
+        os.system('cls||clear')
         response = results.at[i, "artificialintelligence"]
         print(f"Response [{i+1}/{nresponses}]:\n", response, "\n")
         annotation = input(
