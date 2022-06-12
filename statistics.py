@@ -1,3 +1,5 @@
+"""This module implements the statistics calculation for the specific and 
+non-specific questions about the systems."""
 import argparse
 from pathlib import Path
 
