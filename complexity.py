@@ -1,5 +1,5 @@
-"""This module implements the statistics calculation for complexity question
-about the AI systems."""
+"""This module implements the statistics calculation for the complexity 
+question about the AI systems."""
 import argparse
 from pathlib import Path
 
