@@ -27,8 +27,8 @@ def get_column_names(
 def ns_table(
         results: pd.DataFrame, nonspecific: pd.DataFrame, variable: str,
         statistic: str = "mean") -> pd.DataFrame:
-    """Return the table of `statistic` with respect to `variable` for the
-    non system-specific questions.
+    """Return the table of `statistic` values with respect to `variable` for 
+    the non system-specific questions.
 
     Arguments:
         - results (DataFrame) : A pandas DataFrame of Toloka's results.
@@ -72,8 +72,8 @@ def ns_table(
 def sp_table(
         results: pd.DataFrame, specific: pd.DataFrame, variable: str,
         statistic: str = "mean") -> pd.DataFrame:
-    """Return the table of `statistic` with respect to `variable` for the
-    system-specific questions.
+    """Return the table of `statistic` values with respect to `variable` for 
+    the system-specific questions.
 
     Arguments:
         - results (DataFrame) : A pandas DataFrame of Toloka's results.
