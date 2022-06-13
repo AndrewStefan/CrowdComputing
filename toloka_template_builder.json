@@ -203,7 +203,7 @@
                         },
                         {
                           "type": "field.textarea",
-                          "label":"One or two short sentences should suffice.",
+                          "label": "One or two short sentences should suffice.",
                           "data": {
                             "type": "data.output",
                             "path": "artificialintelligence"
