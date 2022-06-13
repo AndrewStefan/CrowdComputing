@@ -27,11 +27,8 @@ This script was used to generate the majority voting result of annotations from 
 
 ```
 $ python majority_voting.py
-usage: annotator.py [-h] -f F
+usage: majority_voting.py
 
-options:
-  -h, --help          show this help message and exit
-  -f F, --filename F  Path to open question answer data
 ```
 
 ### Statistics ([statistics.py](statistics.py))
