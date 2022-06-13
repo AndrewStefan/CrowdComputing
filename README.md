@@ -23,7 +23,16 @@ options:
 ```
 
 ### Majority Voting ([majority_voting.py](majority_voting.py))
+This script was used to generate the majority voting result of annotations from three annotators for each open question answer and calculate the Fleiss' kappa. For the situation where annotators have distinct answers, the fourth annotator is asked to break the tie. Fleiss' kappa coefficient is a number between 0-1 and the extent of agreement of corresponding Fleiss' kappa coefficient can be found [here](https://pubmed.ncbi.nlm.nih.gov/15883903/)
 
+```
+$ python majority_voting.py
+usage: annotator.py [-h] -f F
+
+options:
+  -h, --help          show this help message and exit
+  -f F, --filename F  Path to open question answer data
+```
 
 ### Statistics ([statistics.py](statistics.py))
 This script was used to generate statistics (mean, median, std, count) for the responses in the system-specific and non system-specific questions. The aforementioned statistics are calculated with respect to two different variables:
