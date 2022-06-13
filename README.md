@@ -71,3 +71,17 @@ options:
                         Statistic to calculate.
 ```
 
+### Tic-Tac-Toe ([tic-tac-toe](tic-tac-toe))
+This directory contains an implementation of a web app for the infamous game Tic-Tac-Toe that we used in our survey. This is based on [Cledersonbc's](https://github.com/Cledersonbc/tic-tac-toe-minimax/) application, but the code is modified to allow for different levels of difficulty. In particular,
+there are three levels:
+- Level 1: Computer performs random moves
+- Level 2: Computer performs optimal moves with a 0.3 chance of performing
+		   a random move
+- Level 3: Computer performs optimal moves only (unbeatable)
+
+It contains the following files:
+- [index.html](tic-tac-toe/index.html): HTHML code for the user interface of the application
+- [script.js](tic-tac-toe/script.js): JavaScript file that contains the game logic and an implementation of the MiniMax algorithm.
+- [style.css](tic-tac-toe/style.css): Cascading Style Sheet for the user interface of the application
+
+In order to interact with the system, you only need to open the [index.html](tic-tac-toe/index.html) file using your favorite browser.
